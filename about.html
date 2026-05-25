@@ -16,13 +16,7 @@
     .btn-red { background: #CC0000; color: #fff; transition: background 0.2s, transform 0.15s; }
     .btn-red:hover { background: #a00000; transform: translateY(-1px); }
     .divider { width: 48px; height: 3px; background: #CC0000; }
-    .portrait {
-      background-image: url('https://images.unsplash.com/photo-1559599101-f09722fb4948?w=800&q=80&auto=format&fit=crop');
-      background-size: cover;
-      background-position: center;
-      filter: grayscale(15%) brightness(0.9);
-    }
-    .stat-num { font-family: 'Oswald', sans-serif; color: #CC0000; }
+.stat-num { font-family: 'Oswald', sans-serif; color: #CC0000; }
     @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
   </style>
 </head>
@@ -56,13 +50,10 @@
     </div>
   </nav>
 
-  <!-- HERO SPLIT -->
-  <section class="pt-16 min-h-screen grid grid-cols-1 lg:grid-cols-2">
-    <!-- Portrait -->
-    <div class="portrait min-h-[50vh] lg:min-h-screen lg:sticky lg:top-0"></div>
-
+  <!-- ABOUT SECTION -->
+  <section class="pt-16 min-h-screen flex items-center">
     <!-- Content -->
-    <div class="flex flex-col justify-center px-8 sm:px-12 lg:px-16 py-20 lg:py-32">
+    <div class="flex flex-col justify-center px-8 sm:px-12 lg:px-16 py-20 lg:py-32 max-w-3xl mx-auto w-full">
       <div class="divider mb-5"></div>
       <p class="text-[#CC0000] text-xs tracking-[0.3em] uppercase mb-3" style="font-family:'Inter',sans-serif">Tu barbera</p>
       <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold uppercase text-white leading-none mb-8" style="font-family:'Oswald',sans-serif">Nurit</h1>
